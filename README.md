@@ -10,6 +10,11 @@ Make sure to enable the "Enable JSON API" and "Enable Playback API" options unde
 
 Extract both [parser.py](parser.py) and [nowplaying.txt](nowplaying.txt) into a folder, then simply launch [parser.py](parser.py). [nowplaying.txt](nowplaying.txt) will contain then current track title and artist and is updated every 5 seconds.
 
+Terminate the script in the command line with
+```
+control + c
+```
+
 ### Configuration
 
 With a little knowledge about Python, [parser.py](parser.py) should be easily understandable to customize to your liking!
